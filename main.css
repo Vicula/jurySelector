@@ -1,7 +1,32 @@
+
+
 html, body{
   margin: 0;
   padding: 0;
+  background: url('./images/topography.png');
+}
+body{
+  margin-top: -1.2em;
+  overflow: hidden;
 }
 * {
   box-sizing: border-box;
+}
+#app-container{
+  padding-top: 5em;
+  width: 100%;
+  height: 100vh;
+}
+.titleHolder h1{
+  font-size: 6em;
+  color: #d9534f;
+}
+
+.content-container{
+  margin-top: 5em;
+}
+.content-container form{
+  font-size: 5em;
+  width: 30%;
+  margin: auto;
 }
